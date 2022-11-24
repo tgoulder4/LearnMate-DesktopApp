@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\babyb\\Downloads\\v14LearnMate - Separating backend to JSON\\LearnMate\\LearnMate.csproj": {}
+    "C:\\Users\\babyb\\Desktop\\LearnMate\\LearnMate-DesktopApp\\LearnMate\\LearnMate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\babyb\\Downloads\\v14LearnMate - Separating backend to JSON\\LearnMate\\LearnMate.csproj": {
+    "C:\\Users\\babyb\\Desktop\\LearnMate\\LearnMate-DesktopApp\\LearnMate\\LearnMate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\babyb\\Downloads\\v14LearnMate - Separating backend to JSON\\LearnMate\\LearnMate.csproj",
+        "projectUniqueName": "C:\\Users\\babyb\\Desktop\\LearnMate\\LearnMate-DesktopApp\\LearnMate\\LearnMate.csproj",
         "projectName": "LearnMate",
-        "projectPath": "C:\\Users\\babyb\\Downloads\\v14LearnMate - Separating backend to JSON\\LearnMate\\LearnMate.csproj",
+        "projectPath": "C:\\Users\\babyb\\Desktop\\LearnMate\\LearnMate-DesktopApp\\LearnMate\\LearnMate.csproj",
         "packagesPath": "C:\\Users\\babyb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\babyb\\Downloads\\v14LearnMate - Separating backend to JSON\\LearnMate\\obj\\",
+        "outputPath": "C:\\Users\\babyb\\Desktop\\LearnMate\\LearnMate-DesktopApp\\LearnMate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

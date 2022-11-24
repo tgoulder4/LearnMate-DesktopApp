@@ -72,7 +72,7 @@ namespace LearnMate
             Student student6 = new Student("User6", "Pass", "Henry");
             Student student7 = new Student("User7", "Pass", "Martha");
             Student student8 = new Student("User8", "Pass", "Tina");
-            Student student9 = new Student("User9", "Pass", "Isaac");
+            Student student9 = new Student("User", "Pass", "Isaac");
             School school = new School("TyesSchool", "abc");
 
             school.addClass("TyesFirstClass"); //automatically adds to classesInSchool.

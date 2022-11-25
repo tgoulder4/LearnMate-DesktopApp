@@ -98,13 +98,6 @@ namespace LearnMate
                         }
                     }
                     subTopicsLeft.Remove(subTopicsLeft[i]); //we've finished going through all microsessioins here
-
-                    //subTopicsLeft.remove at current sub topic, exit while loop to prevent error.
-                    if (subTopicsLeft.Count != 0)
-                    {
-                        finished = true;
-                    }
-
                 }
                 
                 finished = true;

@@ -225,6 +225,7 @@ namespace LearnMate
                     Topic topic = new Topic();
                     Topic topic2 = new Topic();
                     Topic topic3 = new Topic();
+                    Topic topic4 = new Topic();
 
                     topic.topicID = 1;
                     topic2.topicID = 2;
@@ -235,7 +236,9 @@ namespace LearnMate
                     topic2.addSubtopic(st2);
                     topic3.TopicName = ("Statistics");
                     topic3.addSubtopic(st3);
+                    topic4.TopicName = "Test";
 
+                    SubjectTopics.Add(topic4);
                     SubjectTopics.Add(topic);
                     SubjectTopics.Add(topic2);
                     SubjectTopics.Add(topic3);
@@ -449,9 +452,7 @@ namespace LearnMate
                 TopicQuestions.Add(topicQuestion);
             }
         }
-        //all that matters is the microsessions.
-        //have a list of microsessions in a subtopic.
-        //create the subTopic, st.microsessions
+
         public class TopicQuestion
         {
             public int topicQuestionID;
@@ -464,13 +465,6 @@ namespace LearnMate
                 Answer = a;
             }
         }
-
-
-        
-
-
-
-
 
         public class User
         {

@@ -55,7 +55,7 @@
             this.pnlSubjects.BackColor = System.Drawing.Color.Transparent;
             this.pnlSubjects.Location = new System.Drawing.Point(103, 186);
             this.pnlSubjects.Name = "pnlSubjects";
-            this.pnlSubjects.Size = new System.Drawing.Size(787, 254);
+            this.pnlSubjects.Size = new System.Drawing.Size(789, 257);
             this.pnlSubjects.TabIndex = 9;
             // 
             // btnBegin

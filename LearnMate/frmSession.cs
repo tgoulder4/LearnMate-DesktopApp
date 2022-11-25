@@ -61,6 +61,10 @@ namespace LearnMate
         {
             //for every microsession in the selected sub topic, [play the video file then for every topic question load the practice question].
             //updateMicrosessionlabel(),loadPracticeFrame(), loadPracticeQuestion(q,a).
+            containerREF.titlePanel.BackColor = Color.FromArgb(86, 239, 155);
+            containerREF.lblLogo.ForeColor = Color.FromArgb(58, 149, 99);
+            containerREF.lblDivider.ForeColor = Color.FromArgb(58, 149, 99);
+            containerREF.lblTitle.ForeColor = Color.FromArgb(58, 149, 99);
             while (!finished) //&sessionsleft.count>=0;
             {
                 for (int i = 0;i<= subTopicsLeft.Count - 1; i++)
@@ -104,6 +108,7 @@ namespace LearnMate
                 }
                 
                 finished = true;
+                containerREF.titlePanel.BackColor = Color.White;
             }
             containerREF.loadLearnAndPractice();
             MessageBox.Show("Congratulations! You've finished your session. Taking you back...");

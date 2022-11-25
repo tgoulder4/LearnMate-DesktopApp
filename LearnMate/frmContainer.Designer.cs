@@ -126,6 +126,7 @@
             // pnlMenu
             // 
             this.pnlMenu.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.pnlMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnlMenu.Controls.Add(this.lblLinked);
             this.pnlMenu.Controls.Add(this.btnCollapse);
             this.pnlMenu.Controls.Add(this.btnLogOutOfContainer);
@@ -136,9 +137,9 @@
             this.pnlMenu.Controls.Add(this.label4);
             this.pnlMenu.Controls.Add(this.label3);
             this.pnlMenu.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.pnlMenu.Location = new System.Drawing.Point(706, 0);
+            this.pnlMenu.Location = new System.Drawing.Point(706, -6);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(302, 612);
+            this.pnlMenu.Size = new System.Drawing.Size(302, 618);
             this.pnlMenu.TabIndex = 5;
             // 
             // lblLinked
@@ -310,8 +311,6 @@
         }
 
         #endregion
-        private Label lblLogo;
-        private Label lblDivider;
         public Panel titlePanel;
         public Panel mainPanel2;
         public Label lblTitle;
@@ -330,5 +329,7 @@
         public PictureBox btnMenu;
         private Button btnLink;
         private Button btnReturn;
+        public Label lblLogo;
+        public Label lblDivider;
     }
 }

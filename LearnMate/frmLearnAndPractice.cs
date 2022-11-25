@@ -180,7 +180,7 @@ namespace LearnMate
             {
                 ptc.BackgroundImage = Image.FromFile("btnThermalPhysics.png");
             }
-            else
+            else if (topicName=="Test")
             {
                 ptc.BackgroundImage = Image.FromFile("btnNoPicture.png");
             }

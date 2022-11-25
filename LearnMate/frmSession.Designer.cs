@@ -82,7 +82,7 @@
             this.lblVideoTitle.BackColor = System.Drawing.Color.White;
             this.lblVideoTitle.Font = new System.Drawing.Font("Darker Grotesque SemiBold", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblVideoTitle.ForeColor = System.Drawing.Color.Silver;
-            this.lblVideoTitle.Location = new System.Drawing.Point(30, 18);
+            this.lblVideoTitle.Location = new System.Drawing.Point(134, 9);
             this.lblVideoTitle.Name = "lblVideoTitle";
             this.lblVideoTitle.Size = new System.Drawing.Size(167, 47);
             this.lblVideoTitle.TabIndex = 4;
